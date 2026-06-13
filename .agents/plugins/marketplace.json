@@ -1,0 +1,20 @@
+{
+  "name": "ios-design-skills",
+  "interface": {
+    "displayName": "iOS Design Skills"
+  },
+  "plugins": [
+    {
+      "name": "ios-design",
+      "source": {
+        "source": "local",
+        "path": "./codex/plugins/ios-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

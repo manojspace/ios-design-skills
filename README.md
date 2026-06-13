@@ -67,15 +67,17 @@ ios-design-skills/
 Install directly from the GitHub marketplace:
 
 ```bash
-codex plugin marketplace add manojspace/ios-design-skills --ref main --sparse codex
+codex plugin marketplace add manojspace/ios-design-skills --ref main
 codex plugin add ios-design@ios-design-skills
 ```
 
-If your Codex version does not support sparse Git marketplace roots, use a local clone:
+The root marketplace manifest is intentionally tiny. It points Codex at the implementation under `codex/plugins/ios-design`.
+
+If you prefer a local clone:
 
 ```bash
 git clone https://github.com/manojspace/ios-design-skills.git
-codex plugin marketplace add ./ios-design-skills/codex
+codex plugin marketplace add ./ios-design-skills
 codex plugin add ios-design@ios-design-skills
 ```
 
@@ -248,7 +250,7 @@ codex plugin marketplace list
 codex plugin list
 ```
 
-If a Git sparse marketplace install fails, use the local clone install path shown above.
+If a Git marketplace install fails, use the local clone install path shown above.
 
 If Claude Code does not show `/ios-design`, confirm the file exists at:
 

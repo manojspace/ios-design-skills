@@ -1,0 +1,28 @@
+{
+  "name": "ios-design",
+  "version": "0.1.0",
+  "description": "Award-caliber SwiftUI and iOS design guidance for Codex.",
+  "author": {
+    "name": "Manoj",
+    "email": "manojswami600@gmail.com"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "iOS Design",
+    "shortDescription": "Design and polish SwiftUI screens with native iOS craft.",
+    "longDescription": "Adds product UX planning, SwiftUI design tokens, screen archetypes, motion and haptics guidance, accessibility checks, and simulator screenshot critique for high-polish iOS apps.",
+    "developerName": "Manoj",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills",
+      "SwiftUI",
+      "iOS Design"
+    ],
+    "brandColor": "#1F6F5C",
+    "defaultPrompt": [
+      "Polish this SwiftUI screen.",
+      "Create an iOS design plan.",
+      "Review this iOS UI screenshot."
+    ]
+  }
+}

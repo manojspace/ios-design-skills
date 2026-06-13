@@ -4,7 +4,7 @@ For visual work in a runnable app, verify by looking at screenshots. Builds are 
 
 ## Preferred Order
 
-1. Use XcodeBuildMCP or available iOS simulator tools when present.
+1. Use Claude Code's `/run` and `/verify` skills when they can launch the app correctly.
 2. Use the bundled shell scripts as fallback.
 3. If the app cannot run locally, state exactly what was not visually verified.
 
@@ -13,19 +13,19 @@ For visual work in a runnable app, verify by looking at screenshots. Builds are 
 Discover:
 
 ```bash
-/Users/manoj/plugins/ios-design/scripts/discover-ios-project.sh .
+scripts/discover-ios-project.sh .
 ```
 
 Build, install, launch, capture:
 
 ```bash
-/Users/manoj/plugins/ios-design/scripts/build-run-screenshot.sh . <Scheme> <bundle.id>
+scripts/build-run-screenshot.sh . <Scheme> <bundle.id>
 ```
 
 Capture another matrix for an already installed app:
 
 ```bash
-/Users/manoj/plugins/ios-design/scripts/capture-simulator-matrix.sh <bundle.id> /tmp/ios-design-shots
+scripts/capture-simulator-matrix.sh <bundle.id> /tmp/ios-design-shots
 ```
 
 ## Screenshot Matrix

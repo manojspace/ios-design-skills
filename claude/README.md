@@ -1,39 +1,43 @@
-# Claude iOS Design Skill
+# Claude iOS And iPadOS Design Skills
 
-Claude Code skill package for high-polish iOS UI/UX work.
+Claude Code skill packages for high-polish iOS and iPadOS UI/UX work.
 
-## Claude Code Project Skill
+## Project Skills
 
-Copy this directory:
+Copy these directories:
 
 ```text
 claude/.claude/skills/ios-design/
+claude/.claude/skills/ipados-design/
 ```
 
 Into a target project:
 
 ```text
 .claude/skills/ios-design/
+.claude/skills/ipados-design/
 ```
 
-Then invoke it in Claude Code with:
+Invoke them in Claude Code with:
 
 ```text
 /ios-design
+/ipados-design
 ```
 
-Claude may also load it automatically when a request matches the skill description.
+Claude may also load them automatically when a request matches the skill description.
 
-## Claude Code Personal Skill
+## Personal Skills
 
-Copy the skill to:
+Copy the skill folders to:
 
 ```text
 ~/.claude/skills/ios-design/
+~/.claude/skills/ipados-design/
 ```
 
-That makes it available across projects.
+That makes them available across Claude Code projects.
 
 ## Claude Customizer
 
-Use `customizer-prompt.md` as paste-ready custom instructions when you want the same behavior in Claude surfaces that do not load Claude Code skills directly.
+Use `customizer-prompt.md` as paste-ready custom instructions when you want similar behavior in Claude surfaces that do not load Claude Code skills directly.

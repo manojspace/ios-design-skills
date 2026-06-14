@@ -1,0 +1,28 @@
+{
+  "name": "ipados-design",
+  "version": "0.1.0",
+  "description": "High-polish iPadOS design guidance for adaptive, desktop-class iPad apps.",
+  "author": {
+    "name": "Manoj",
+    "email": "manojswami600@gmail.com"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "iPadOS Design",
+    "shortDescription": "Design adaptive iPadOS apps with iPhone-level product polish.",
+    "longDescription": "Adds iPadOS product UX planning, adaptive layout guidance, split-view and windowing patterns, keyboard/pointer/Pencil interaction rules, templates, and simulator screenshot verification for iPad apps that match the quality of the iPhone experience.",
+    "developerName": "Manoj",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills",
+      "SwiftUI",
+      "iPadOS Design"
+    ],
+    "brandColor": "#315EBC",
+    "defaultPrompt": [
+      "Design this iPadOS screen.",
+      "Adapt this iPhone UI for iPad.",
+      "Review this iPad app screenshot."
+    ]
+  }
+}
